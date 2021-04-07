@@ -14,7 +14,7 @@ const Navbar = (props) => {
         <Link to="/" className="navbar--title">
           CC assignment————S3762087
         </Link>
-        <div className="navbar--signState">{signStateLlink}</div>
+        <div className="navbar--signSta te">{signStateLlink}</div>
       </div>
     </nav>
   );
