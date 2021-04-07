@@ -7,7 +7,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "public",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -21,7 +21,7 @@
     ]
   },
   "storage": {
-    "rules": "storage.rule"
+    "rules": "storage.rules"
   },
   "emulators": {
     "auth": {
